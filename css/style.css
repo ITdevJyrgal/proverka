@@ -142,3 +142,51 @@ a {
 .hero div h6 {
     padding-bottom: 20px;
 }
+
+#footer {
+    background: #262626;
+    padding: 50px 50px;
+}
+
+.footer-width {
+    width: 100%;
+    background: grey;
+    height: 2px;
+    margin-top: 30px;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-block-square {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-end a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
